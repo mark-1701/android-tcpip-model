@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/layer1"
+        android:title="Capa 1"
+        android:icon = "@drawable/baseline_layers_24"
+        android:tint = "@color/white"
+        android:orderInCategory="30"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/layer2"
+        android:title="Capa 2"
+        android:icon = "@drawable/baseline_layers_24"
+        android:tint = "@color/white"
+        android:orderInCategory="40"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/layer3"
+        android:title="Capa 3"
+        android:icon = "@drawable/baseline_layers_24"
+        android:tint = "@color/white"
+        android:orderInCategory="60"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/layer4"
+        android:title="Capa 4"
+        android:icon = "@drawable/baseline_layers_24"
+        android:tint = "@color/white"
+        android:orderInCategory="70"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/librery"
+        android:title="Libreria"
+        android:icon = "@drawable/baseline_menu_book_24"
+        android:orderInCategory="10"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/protocols"
+        android:title="Protocolos"
+        android:icon = "@drawable/baseline_local_parking_24"
+        android:orderInCategory="10"
+        app:showAsAction="ifRoom"/>
+
+</menu>
